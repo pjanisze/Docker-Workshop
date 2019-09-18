@@ -1,11 +1,7 @@
 version: '3.1'
 services:
   web:
-    image: ${image_name}
-    environment:
-     - ${fill this in}
-    ports:
-     - ${fill this in}
+    #fill in missing parameters
     volumes:
      - .:/code
      - /code/node_modules
